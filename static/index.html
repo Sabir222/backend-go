@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTMX Greeting</title>
+    <script src="https://unpkg.com/htmx.org@1.8.2"></script>
+  </head>
+  <body>
+    <h1>Welcome to HTMX Greeting Example</h1>
+    <button hx-get="/hello" hx-target="#greeting">Get Greeting</button>
+    <div id="greeting"></div>
+  </body>
+</html>
