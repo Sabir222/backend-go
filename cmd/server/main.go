@@ -14,4 +14,5 @@ func main() {
 	if err := http.ListenAndServe(":8080", srv); err != nil {
 		log.Fatalf("Server failed to run : %v", err)
 	}
+	//log.Fatal(http.ListenAndServe(":8080", srv))
 }
